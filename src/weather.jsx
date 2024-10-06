@@ -41,6 +41,8 @@ function Weather() {
         return "🌦️";
       case "mist":
         return "🌫️";
+        case "haze":
+            return "🌫️";
       default:
         return "";
     }
